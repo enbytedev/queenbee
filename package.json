@@ -1,10 +1,14 @@
 {
   "name": "queenbee",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small tool to help with managing applications.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "queenbee": "./bin/queenbee.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/enbytedev/queenbee/issues"
   },
-  "homepage": "https://github.com/enbytedev/queenbee#readme"
+  "homepage": "https://github.com/enbytedev/queenbee#readme",
+  "devDependencies": {
+    "kitchenlight": "^0.0.5"
+  }
 }

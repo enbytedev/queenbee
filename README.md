@@ -15,5 +15,5 @@
 </p>
 
 ```
-npm i -D queenbee
+npm i -g queenbee
 ```
