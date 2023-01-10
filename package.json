@@ -1,6 +1,6 @@
 {
   "name": "queenbee",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A small tool to help with managing applications.",
   "main": "index.js",
   "type": "module",
